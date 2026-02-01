@@ -42,12 +42,15 @@ Network: Ethereum Sepolia Testnet
 Pour acheter un billet sur **TicketChain**, le client suit un processus sécurisé et décentralisé en trois étapes :
 
 1. **Connexion du Wallet :** L'utilisateur accède au site et connecte son portefeuille **MetaMask** au réseau **Sepolia**. Cela sert d'authentification sans avoir besoin de créer un compte classique.
+
    <img width="2216" height="1290" alt="image (9)" src="https://github.com/user-attachments/assets/7e38abf8-50b0-4a62-b757-73e80f994563" />
 
 3. **Achat du Billet :** Le client sélectionne son billet et clique sur "Buy Ticket". Une transaction est générée via **Ethers.js**, demandant au client de confirmer le paiement en ETH sur son interface MetaMask.
    
+   
 
 5. **Validation Blockchain :** Une fois la transaction validée sur la blockchain, MetaMask affiche une notification de réussite, et le billet est instantanément lié à l'adresse publique du client (visible sur Etherscan).
+   
 <img width="543" height="652" alt="image (10)" src="https://github.com/user-attachments/assets/53624c30-38bc-4738-831b-5bafe9f6e687" />
 
    
