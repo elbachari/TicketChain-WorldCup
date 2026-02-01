@@ -37,21 +37,19 @@ Environment: Remix IDE, VS Code, MetaMask
 
 
 Network: Ethereum Sepolia Testnet 
-## 🛒 Parcours Utilisateur (User Journey)
+## 🛒 User Journey
 
-Pour acheter un billet sur **TicketChain**, le client suit un processus sécurisé et décentralisé en trois étapes :
+To purchase a ticket on **TicketChain**, the user follows a secure, decentralized three-step process:
 
-1. **Connexion du Wallet :** L'utilisateur accède au site et connecte son portefeuille **MetaMask** au réseau **Sepolia**. Cela sert d'authentification sans avoir besoin de créer un compte classique.
+1. **Wallet Connection:** The user accesses the platform and connects their **MetaMask** wallet to the **Sepolia Network**. This serves as a secure authentication method without the need for a traditional account.
 
    <img width="2216" height="1290" alt="image (9)" src="https://github.com/user-attachments/assets/7e38abf8-50b0-4a62-b757-73e80f994563" />
 
-3. **Achat du Billet :** Le client sélectionne son billet et clique sur "Buy Ticket". Une transaction est générée via **Ethers.js**, demandant au client de confirmer le paiement en ETH sur son interface MetaMask.
-   
-   
+2. **Ticket Purchase:** The user selects their ticket and clicks "Buy Ticket". A transaction is initiated via **Ethers.js**, prompting the user to confirm the ETH payment within their MetaMask interface.
 
-5. **Validation Blockchain :** Une fois la transaction validée sur la blockchain, MetaMask affiche une notification de réussite, et le billet est instantanément lié à l'adresse publique du client (visible sur Etherscan).
-   
-<img width="543" height="652" alt="image (10)" src="https://github.com/user-attachments/assets/53624c30-38bc-4738-831b-5bafe9f6e687" />
+3. **Blockchain Validation:** Once the transaction is confirmed on the blockchain, MetaMask displays a success notification. The ticket is instantly linked to the user's public address and becomes verifiable on Etherscan.
+
+   <img width="543" height="652" alt="image (10)" src="https://github.com/user-attachments/assets/53624c30-38bc-4738-831b-5bafe9f6e687" />
 
    
 ## 📁 Repository Structure
