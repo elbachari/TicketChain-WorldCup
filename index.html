@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TicketChain – World Cup 2026 Ticket Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="title">
+        <span class="ball">⚽</span> World Cup 2026 Tickets
+    </h1>
+
+    <p class="subtitle">
+        Secure & decentralized ticketing on Ethereum Sepolia
+    </p>
+
+    <div class="flags">
+        <div class="flag">🇺🇸 USA</div>
+        <div class="flag">🇨🇦 Canada</div>
+        <div class="flag">🇲🇽 Mexico</div>
+    </div>
+
+    <!-- WALLET -->
+    <button id="connectBtn">Connect MetaMask</button>
+    <p id="status" class="info">Please connect your wallet.</p>
+
+    <!-- TICKETS -->
+    <div id="ticketSection" class="section" style="display:none;">
+        <h2>🎫 Ticket Information</h2>
+
+        <p class="info">
+            Ticket price: <strong>0.0005 ETH</strong>
+        </p>
+
+        <p class="info">
+            Total tickets left (Minted):
+            <span id="count">-</span>
+        </p>
+
+        <h2 style="margin-top:20px;">🛒 Buy a Ticket</h2>
+
+        <input
+            type="number"
+            id="ticketIdInput"
+            placeholder="Enter Ticket ID (e.g. 1)"
+        >
+
+        <button id="buyBtn">Buy Ticket</button>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.14.0/dist/ethers.umd.min.js"></script>
+<script src="app.js"></script>
+<script src="ethers.js"></script>
+
+</body>
+</html>
