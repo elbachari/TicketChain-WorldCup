@@ -1,4 +1,5 @@
 # ⚽ TicketChain: FIFA World Cup 2026 Decentralized Ticketing
+<img width="1658" height="1262" alt="image (8)" src="https://github.com/user-attachments/assets/70078f7f-30e4-481c-b5f7-0b119e13356f" />
 
 ## 📌 Project Overview
 TicketChain is a Web3 application designed to solve persistent issues in global sporting events such as ticket fraud, counterfeiting, and illegal resale. By leveraging Ethereum Smart Contracts, every ticket is a unique digital asset whose ownership is verifiable, transparent, and immutable.
@@ -36,7 +37,20 @@ Environment: Remix IDE, VS Code, MetaMask
 
 
 Network: Ethereum Sepolia Testnet 
+## 🛒 Parcours Utilisateur (User Journey)
 
+Pour acheter un billet sur **TicketChain**, le client suit un processus sécurisé et décentralisé en trois étapes :
+
+1. **Connexion du Wallet :** L'utilisateur accède au site et connecte son portefeuille **MetaMask** au réseau **Sepolia**. Cela sert d'authentification sans avoir besoin de créer un compte classique.
+   <img width="2216" height="1290" alt="image (9)" src="https://github.com/user-attachments/assets/7e38abf8-50b0-4a62-b757-73e80f994563" />
+
+3. **Achat du Billet :** Le client sélectionne son billet et clique sur "Buy Ticket". Une transaction est générée via **Ethers.js**, demandant au client de confirmer le paiement en ETH sur son interface MetaMask.
+   
+
+5. **Validation Blockchain :** Une fois la transaction validée sur la blockchain, MetaMask affiche une notification de réussite, et le billet est instantanément lié à l'adresse publique du client (visible sur Etherscan).
+<img width="543" height="652" alt="image (10)" src="https://github.com/user-attachments/assets/53624c30-38bc-4738-831b-5bafe9f6e687" />
+
+   
 ## 📁 Repository Structure
 
 /contract: Contains TicketChain.sol (the core logic).
