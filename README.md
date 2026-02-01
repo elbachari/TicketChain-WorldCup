@@ -1,10 +1,11 @@
-⚽ TicketChain: FIFA World Cup 2026 Decentralized Ticketing
-📌 Project Overview
+# ⚽ TicketChain: FIFA World Cup 2026 Decentralized Ticketing
+
+## 📌 Project Overview
 TicketChain is a Web3 application designed to solve persistent issues in global sporting events such as ticket fraud, counterfeiting, and illegal resale. By leveraging Ethereum Smart Contracts, every ticket is a unique digital asset whose ownership is verifiable, transparent, and immutable.
 
 This project was developed as part of the M2 Computer Science (RES) program at Sorbonne Université.
 
-🚀 Key Features
+## 🚀 Key Features
 
 Immutable Ownership: Once a ticket is purchased, the record is stored permanently on the Sepolia Testnet.
 
@@ -20,7 +21,7 @@ Web3 Integration: A modern frontend that connects directly to the blockchain via
 
 Transparency: All transactions and ownership records can be audited publicly via Etherscan.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Smart Contract: Solidity (v0.8.20) 
 
@@ -36,7 +37,7 @@ Environment: Remix IDE, VS Code, MetaMask
 
 Network: Ethereum Sepolia Testnet 
 
-📁 Repository Structure
+## 📁 Repository Structure
 
 /contract: Contains TicketChain.sol (the core logic).
 
@@ -46,7 +47,7 @@ Network: Ethereum Sepolia Testnet
 
 /docs: Full technical project report.
 
-🔧 How to Run Locally
+# 🔧 How to Run Locally
 Clone the repo:
 
 Bash
